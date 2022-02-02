@@ -1,13 +1,1197 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* arabic */
+@font-face {
+  font-family: "Lemonada";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lemonada/v11/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeutGm_-d7Z0.woff2)
+    format("woff2");
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41,
+    U+FB50-FDFF, U+FE80-FEFC;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Lemonada";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lemonada/v11/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeutGkf-d7Z0.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Lemonada";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lemonada/v11/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeutGkP-d7Z0.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Lemonada";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lemonada/v11/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeutGnv-d.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+/*00000000000000000000000000000000000000000000000000 poppins*/
+/* devanagari */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* hebrew */
+@font-face {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/varelaround/v13/w8gdH283Tvk__Lua32TysjIfpcuPP9g.woff2)
+    format("woff2");
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/varelaround/v13/w8gdH283Tvk__Lua32TysjIfqMuPP9g.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/varelaround/v13/w8gdH283Tvk__Lua32TysjIfqcuPP9g.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/varelaround/v13/w8gdH283Tvk__Lua32TysjIfp8uP.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+::-webkit-scrollbar {
+  width: 3px !important;
+}
+::-webkit-scrollbar-thumb {
+  background-color: yellow;
+  border-radius: 50px !important;
+}
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  image-rendering: -webkit-optimize-contrast;
+  user-select: none;
+  background-color: #000;
+  color: #fff;
+}
+.app {
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+  min-height: 80px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 17pt;
+  text-decoration: none;
+  outline: none;
+  background: none;
+}
+a {
+  text-decoration: none;
+  background: none;
+}
+.header ul li {
+  position: relative;
+}
+.header ul li a:focus::after {
+  right: 0%;
+  width: 100%;
+}
+.header ul #fq a:hover::after {
+  background: red;
+}
+.header span,
+#fq {
+  color: red;
+  background: none;
+}
+.mode {
+  width: 30px;
+  height: 30px;
+  transition: 0.5s;
+  background: none;
+}
+
+.mode:hover {
+  transform: rotate(220deg);
+  cursor: pointer;
+}
+
+@keyframes animText {
+  from {
+    transform: translateY(50px);
+    opacity: 0.1;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animText {
+  animation-name: animText;
+}
+@keyframes animText1 {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animText1 {
+  animation-name: animText1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+  font-family: "Varela Round";
+  color: #fff;
+}
+nav h2 {
+  font-size: 25px;
+}
+
+nav ul img {
+  margin-left: 5px;
+}
+
+nav ul li,
+.mmenu ul li {
+  margin: 0 15px;
+  display: inline-block;
+  font-size: 22px;
+}
+nav a,
+.mmenu a {
+  color: #fff;
+}
+nav ul li {
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  right: 50%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #fff;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+  content: "";
+  position: absolute;
+  right: 0%;
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+nav h2 {
+  position: relative;
+}
+.mmenu ul li {
+  font-size: 22px;
+  display: block;
+  margin: 15px 0;
+  text-align: center;
+  font-family: "lemonada";
+  color: #fff;
+}
+.mmenu a {
+  color: #fff;
+}
+.mmenu {
+  display: none;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.mob {
+  display: none;
+}
+
+.moden img {
+  margin-right: 15px;
+}
+.menubar {
+  display: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 30px;
+  height: 3px;
+  border-radius: 20px;
+  background-color: yellow;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+.change .bar1 {
+  transform: rotate(-45deg) translate(-6px, 5px);
+  transition: transform 0.3s ease-out;
+}
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-6px, -5px);
+  transition: transform 0.3s ease-out;
+}
+
+/* ---------MAIN------------ */
+.main {
+  min-height: calc(100vh - 90px - 55px);
+}
+
+/* ---------MAIN------------ */
+/* ---------HOME------------ */
+.app,
+.home,
+.portfolio,
+.skills,
+.about > .right,
+nav,
+nav ul,
+.moden,
+.mmenu,
+.mmenu ul,
+.menubar,
+.left,
+.rang,
+h1,
+h3,
+p,
+button,
+img,
+.box,
+.birs,
+.ikkis,
+.lk,
+.progres,
+span,
+.btn,
+.m1,
+.fk,
+.ab,
+.project,
+.percent,
+.second,
+.react-reveal,
+.iconka,
+.icon {
+  background: none;
+}
+.about,
+.skills > .inbox,
+.skil,
+center,
+.progres {
+  background: none;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 10%;
+  align-items: center;
+  background: none;
+}
+.home .left h1 {
+  width: 90%;
+  font-size: 50px;
+  font-family: "Lemonada";
+  transition: 0.5s;
+}
+
+.home .left h1:hover {
+  transform: translateX(50px);
+}
+
+.home .left p {
+  font-size: 21px;
+  width: 45%;
+  color: #555;
+  font-family: "Varela Round";
+  line-height: 40px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.home .left p:hover {
+  transform: translateX(50px);
+}
+.fk {
+  display: flex;
+  padding-top: 5px;
+}
+button {
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  color: #000;
+  font-family: "Varela Round";
+  border-radius: 10px;
+  border: 1px solid #000;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+button:hover {
+  box-shadow: 0 0 15px #fff;
+}
+
+.activ::after {
+  width: 100%;
+  right: 0;
+}
+
+.yellow {
+  margin-left: 15px;
+  background-color: yellow;
+}
+
+.whitebutton {
+  background: white;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  margin: 0 13px 0 13px;
+  position: relative;
+  transition: 0.7s;
+}
+
+.icon img:hover {
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+.home .right {
+  width: 45%;
+  text-align: left;
+}
+.home .rasm {
+  background-image: url(./assets/images/my_photo1.jpg);
+  background-size: cover;
+}
+.home .rasm {
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 20px #fff;
+  transition: 0.5s;
+}
+
+.home .rasm:hover {
+  transform: translateX(-100px);
+}
+
+/* ---------HOME------------ */
+/* ---------PORTFOLIO------------ */
+
+.box {
+  width: 80%;
+  margin: 110px auto;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+.portfolio .rang {
+  padding: 80px 0 0 0;
+}
+.project {
+  width: 45%;
+}
+
+.project {
+  color: #fff;
+  font-family: "Varela Round";
+  position: relative;
+  padding-top: 20px;
+}
+
+.project h1,
+.project p {
+  margin-left: 15px;
+  color: yellow;
+}
+
+.project p {
+  color: #555;
+  line-height: 30px;
+}
+
+.btn {
+  /* position: absolute; */
+  bottom: 30px;
+  padding-top: 50px;
+  display: flex;
+}
+
+.btn button {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn .yellow img {
+  background: none;
+}
+.btn button img {
+  width: 24px;
+  height: 24px;
+  background-color: #333;
+  margin-left: 8px;
+}
+
+.rang {
+  color: yellow;
+  font-family: "Lemonada";
+  text-align: center;
+  padding: 50px 0;
+}
+.rasm {
+  width: 45%;
+}
+.portfolio img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* ---------PORTFOLIO------------ */
+/* ---------ABOUT------------ */
+
+.ab {
+  width: 90%;
+  margin: auto;
+  overflow: auto;
+}
+
+.second {
+  color: #555;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.second p {
+  color: rgb(185, 184, 85);
+  font-family: "Lemonada";
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+.m1 {
+  background-color: #333;
+  color: #fff;
+}
+
+.m2 {
+  background-color: yellow;
+}
+
+button img {
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+
+.iconka {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.iconka img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.iconka img:hover {
+  transform: scale(1.2);
+}
+
+.fgh {
+  color: yellow;
+  font-family: "Varela Round";
+  text-align: center;
+  border-top: 1px solid yellow;
+  border-bottom: 1px solid yellow;
+  margin: 50px 0;
+}
+
+/* ---------ABOUT------------ */
+/* ---------SKILLS------------ */
+
+.skil {
+  display: flex;
+  padding-left: 20px;
+  margin: 15px 0;
+  height: 100px;
+}
+
+.skil p {
+  opacity: 1;
+  font-size: 19px;
+}
+.ikkis .lk span {
+  z-index: 4;
+  background: none;
+}
+.birs {
+  width: 55%;
+}
+.ikkis {
+  width: 40%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.inbox {
+  font-family: "Lemonada";
+  color: #fff;
+}
+
+#dfg {
+  width: 70%;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.progress-circle {
+  font-size: 20px;
+  margin: 20px;
+  position: relative;
+  padding: 0;
+  width: 5em;
+  height: 5em;
+  background-color: #333;
+  opacity: 0.9;
+  border-radius: 50%;
+  line-height: 5em;
+}
+
+.progress-circle:after {
+  border: none;
+  position: absolute;
+  top: 0.35em;
+  left: 0.35em;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  width: 4.3em;
+  height: 4.3em;
+  background-color: white;
+  content: " ";
+}
+
+.progress-circle span {
+  position: absolute;
+  line-height: 5em;
+  width: 5em;
+  text-align: center;
+  display: block;
+  color: #191919;
+}
+
+.left-half-clipper {
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  position: absolute;
+  clip: rect(0, 5em, 5em, 2.5em);
+}
+
+.progress-circle.over50 .left-half-clipper {
+  clip: rect(auto, auto, auto, auto);
+}
+
+.value-bar {
+  position: absolute;
+  clip: rect(0, 2.5em, 5em, 0);
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  border: 0.45em solid yellow;
+  box-sizing: border-box;
+}
+
+.progress-circle.over50 .first50-bar {
+  position: absolute;
+  clip: rect(0, 5em, 5em, 2.5em);
+  background-color: yellow;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+}
+
+.progress-circle:not(.over50) .first50-bar {
+  display: none;
+}
+
+.progress-circle.p50 .value-bar {
+  transform: rotate(180deg);
+}
+
+.progress-circle.p70 .value-bar {
+  transform: rotate(252deg);
+}
+
+.progress-circle.p77 .value-bar {
+  transform: rotate(277deg);
+}
+
+.inbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sk {
+  font-family: "Lemonada";
+}
+
+.skills {
+  padding-top: 60px;
+}
+
+.line1,
+.line2,
+.line3,
+.line4,
+.line5,
+.line6 {
+  height: 3px;
+  border-radius: 15px;
+  background-color: #ffff00;
+}
+
+.line1 {
+  width: 80%;
+}
+
+.line2 {
+  width: 85%;
+}
+
+.line3 {
+  width: 85%;
+}
+
+.line4 {
+  width: 75%;
+}
+
+.line5 {
+  width: 65%;
+}
+
+.line6 {
+  width: 70%;
+}
+
+.bir {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: "Varela Round";
+}
+
+.progres {
+  width: 87%;
+}
+
+.progres h3 {
+  font-weight: 500;
+}
+
+.percent {
+  margin: 0;
+  text-align: left;
+  width: 13%;
+  box-sizing: border-box;
+}
+
+/* ---------SKILLS------------ */
+/* ---------FOOTER------------ */
+
+.footer {
+  padding: 18px 20px;
+  border-top: 1px solid #fff;
+  color: #fff;
+  font-family: "Varela Round";
+}
+
+.footer span {
+  color: red;
+  background: none;
+}
+
+/* ---------FOOTER------------ */
+
+.asos {
+  width: 100%;
+  overflow: auto;
+  background: #000;
+  display: none;
+}
+
+.as {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.asos span {
+  color: red;
+}
+
+#fq::after {
+  background: red;
+}
+.activ::after {
+  width: 100%;
+  right: 0;
+}
+.ab {
+  width: 90%;
+  margin: auto;
+  overflow: auto;
+}
+
+@keyframes df {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1500px) {
+  body {
+    font-size: 100%;
+  }
+  .home {
+    width: 90%;
+    margin: auto;
+  }
+  .left h1 {
+    font-size: 3vw;
+  }
+  .left p {
+    font-size: 1.7vw;
+    width: 70%;
+    line-height: 70px;
+  }
+  nav h2 {
+    font-size: 1.7vw;
+  }
+  nav li a {
+    font-size: 1.4vw;
+  }
+  .yellow {
+    margin-left: 30px;
+  }
+  .icon img {
+    width: 60px;
+    height: 60px;
+  }
+  #last {
+    width: 70px;
+    height: 70px;
+    padding-top: 10px;
+    margin-left: 25px;
+  }
+  .box {
+    width: 70%;
+  }
+  .second {
+    width: 70%;
+  }
+  .second p {
+    font-size: 1.3vw;
+    line-height: 50px;
+    text-align: left;
+  }
+  .fgh,
+  .rang {
+    font-size: 2.5vw;
+  }
+  .iconka img {
+    width: 75px;
+    height: 75px;
+  }
+  .footer p {
+    font-size: 1.2vw;
+  }
+  .two h1 {
+    font-size: 2.2vw;
+  }
+  .two p {
+    font-size: 1.5vw;
+  }
+  .rasm {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media (min-width: 1366px) {
+  .bir h1,
+  .bir p,
+  .fk {
+    margin: 10px 0;
+  }
+  .icon {
+    padding-top: 35px;
+  }
+  .icon img {
+    margin-left: 35px;
+  }
+  nav {
+    padding-top: 35px;
+  }
+}
+@media (min-width: 1140px) {
+  .show {
+    display: none;
+  }
+}
+@media (max-width: 1140px) {
+  .show {
+    display: block;
+  }
+  .header {
+    padding: 10px;
+  }
+  nav ul {
+    display: none;
+  }
+  .home {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .home .left {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+  }
+  .left p,
+  .left h1 {
+    width: 100% !important;
+    padding-bottom: 50px;
+  }
+  .home .left p:hover {
+    transform: scale(1.1);
+  }
+  .home .left h1:hover {
+    transform: scale(1.1);
+  }
+  .left h1 {
+    font-size: 40px;
+  }
+  .icon {
+    justify-content: center;
+  }
+  .moden {
+    display: flex;
+    justify-content: right;
+  }
+  .mob {
+    display: flex;
+  }
+  .menubar {
+    display: block;
+  }
+  .as {
+    overflow: auto;
+  }
+
+  .darkbox {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  .lightbox {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .box {
+    display: grid;
+    height: auto;
+    padding: 20px 0;
+    border-radius: 15px;
+    /* border: 1px solid red; */
+    margin: 60px auto;
+  }
+  .box .project {
+    text-align: center;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .box .btn {
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .rasm {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .one,
+  .two {
+    width: 95%;
+    justify-content: center;
+  }
+  .one {
+    height: 200px;
+    margin-top: 20px;
+  }
+  .kje {
+    display: block;
+    position: inherit;
+  }
+  .kje button {
+    margin: 15px 0;
+  }
+  .progress h2 {
+    font-size: 17px;
+  }
+  .ab {
+    flex-direction: column;
+  }
+
+  .iconka {
+    overflow: auto;
+  }
+
+  .inbox {
+    flex-direction: column;
+  }
+  .birs,
+  .ikkis {
+    width: 85%;
+    margin: auto;
+  }
+  .skil {
+    padding-left: 0;
+    margin: auto;
+  }
+  .as {
+    height: auto;
+  }
+}
+
+@media (max-width: 1140px) {
+  .second p {
+    height: 300px;
+    overflow: auto;
+    width: 95%;
+    padding-left: 10px;
+    text-align: left;
+  }
+  .iconka img:hover {
+    transform: none;
+  }
+  #ref {
+    height: auto;
+  }
+  .home .left h1 {
+    font-size: 7vw;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  .home .rasm {
+    margin: auto;
+    width: 290px;
+    height: 290px;
+  }
+  .home .rasm:hover {
+    transform: none;
+  }
+  .home .fk {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .fk button {
+    width: 130px;
+    height: 45px;
+    font-size: 13pt;
+  }
+}
+@media (max-width: 560px) {
+  .second p {
+    border-left: 1px solid #fff;
+    line-height: 30px;
+  }
+  .header h2 {
+    font-size: 5.5vw;
+  }
+  .home .left p {
+    width: 90%;
+    font-size: 4vw;
+    padding-bottom: 10px;
+  }
+  .left {
+    padding: 20px;
+  }
+  .icon img {
+    width: 8vw;
+    height: 8vw;
+  }
+  .iconka img {
+    width: 8vw;
+    height: 8vw;
+  }
+  .box .project {
+    text-align: center;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .box h1 {
+    font-size: 6vw;
+  }
+  .box .btn {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .box .btn button {
+    width: 75px;
+    height: 28px;
+    font-size: 9pt;
+    border-radius: 6px;
+    margin: 0 5px;
+  }
+  .box .btn button img {
+    width: 17px;
+    height: 17px;
+  }
+}
+@media (max-width: 480px) {
+  #oneimg {
+    margin-left: 150px;
+  }
+  .home .rasm {
+    width: 60vw;
+    height: 60vw;
+  }
+  .fk button {
+    width: 90px;
+    height: 32px;
+    font-size: 10pt;
+  }
 }
